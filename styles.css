@@ -1,0 +1,23 @@
+#header {
+  width: 100%;
+position: fixed;
+top: 0;
+min-height: 75px;
+padding: 0px 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+}
+#header-img {
+  hight: 50px;
+  width: 50px;
+}
+p {
+color: black;
+}
+@media (min-width:600px) {
+  p {
+    color: blue;
+  }
+}
