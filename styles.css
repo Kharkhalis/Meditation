@@ -1,6 +1,23 @@
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 #header-img {
-  hight: 50px;
+  height: 50px;
   width: 50px;
+
+}
+.video {
+  display: flex;
+  justify-content: center;
+  
+  
 }
 #who {
   display: flex;
